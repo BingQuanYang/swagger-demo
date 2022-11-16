@@ -1,0 +1,284 @@
+
+[[_paths]]
+== Resources
+
+[[_basic-error-controller_resource]]
+=== Basic-error-controller
+Basic Error Controller
+
+
+[[_errorhtmlusingpost]]
+==== errorHtml
+....
+POST /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**201**|Created|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusingget]]
+==== errorHtml
+....
+GET /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusingput]]
+==== errorHtml
+....
+PUT /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**201**|Created|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusingdelete]]
+==== errorHtml
+....
+DELETE /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**204**|No Content|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|===
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusingpatch]]
+==== errorHtml
+....
+PATCH /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**204**|No Content|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusinghead]]
+==== errorHtml
+....
+HEAD /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**204**|No Content|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_errorhtmlusingoptions]]
+==== errorHtml
+....
+OPTIONS /error
+....
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_modelandview,ModelAndView>>
+|**204**|No Content|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `text/html`
+
+
+[[_5b0ad68a45d0727406020ff99714ad3d]]
+=== 用户接口
+Swagger Controller
+
+
+[[_getbyidusingget]]
+==== 根据Id查找用户
+....
+GET /swagger/getById
+....
+
+
+===== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**id** +
+__required__|用户ID|string
+|===
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_886fc373cb7c965244568295a2784458,创建Swagger响应结果>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+===== Produces
+
+* `*/*`
+
+
+[[_saveusingpost]]
+==== 新增用户
+....
+POST /swagger/save
+....
+
+
+===== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Body**|**swaggerRequestVO** +
+__required__|swaggerRequestVO|<<_8775bbce91aed933b4259f11b171cb9d,创建Swagger请求参数>>
+|===
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|string
+|**201**|Created|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `*/*`
+
+
+

@@ -1,0 +1,26 @@
+= SMART公司
+
+
+[[_overview]]
+== Overview
+swagger实战
+
+
+=== Version information
+[%hardbreaks]
+__Version__ : 1.0
+
+
+=== URI scheme
+[%hardbreaks]
+__Host__ : localhost:8888
+__BasePath__ : /
+
+
+=== Tags
+
+* basic-error-controller : Basic Error Controller
+* 用户接口 : Swagger Controller
+
+
+
